@@ -1,0 +1,161 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+/* alles over navbar */
+header {
+   margin-bottom: 50px;
+   width: 100%;
+}
+
+
+.navbar-brand img {
+  height: 55px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+
+/* logo op de navbar */
+.collapse img{
+  width: 40px;
+  height: 40px;
+}
+
+
+/* tekst op positie */
+
+.tekst {
+  text-align: center;
+}
+
+
+/* alles over de footer */
+.footercontainer {
+  margin-top: 50px;
+  width: 100%;
+  color: white;
+  height: 160px;
+}
+
+.footercontainer h5 {
+  text-align: center;
+}
+
+.footercontainer li a {
+  color: white;
+  padding: 15px;
+  font-size: 19px;
+}
+
+.footercontainer li a:hover {
+  color: #BCBFC4;
+  padding: 15px;
+  text-decoration: none;
+}
+
+
+.footercontainer p {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.footercontainer .list-unstyled {
+  text-align: center;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* alles over de formulier */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid darkblue;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+
+}
+
+input[type=submit] {
+  background-color: darkblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: darkblue;
+  color: white;
+  text-decoration: underline;
+}
+
+form {
+
+  text-align: center;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+/* over de video's */
+.beatsbydrevideo {
+text-align: center;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+
+/* alles over de carousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 30px;
+    width: 30px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#carouselExampleControls {
+  width: 50%;
+  height: 50%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 273px;
+
+}
+
+
+/* alles over de tabel */
+table{
+  border: 2px solid black;
+  color: black;
+}
+
+table th {
+  border: 1px solid black;
+}
+
+table td {
+  border: 1px solid black;
+}
+
+/
